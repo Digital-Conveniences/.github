@@ -1,0 +1,18 @@
+# Digital Conveniences Games CODEOWNERS template
+
+* @Digital-Conveniences/dc-games
+
+/.github/ @Digital-Conveniences/dc-maintainers @Digital-Conveniences/dc-platform
+/docs/ @Digital-Conveniences/dc-games @Digital-Conveniences/dc-maintainers
+
+# Build/release/platform ownership
+/.github/workflows/ @Digital-Conveniences/dc-platform
+/Build/ @Digital-Conveniences/dc-platform
+/BuildScripts/ @Digital-Conveniences/dc-platform
+/Backend/ @Digital-Conveniences/dc-platform
+/Server/ @Digital-Conveniences/dc-platform
+
+# Commerce, identity, online services
+**/Commerce/ @Digital-Conveniences/dc-security @Digital-Conveniences/dc-games
+**/Identity/ @Digital-Conveniences/dc-security
+**/Auth/ @Digital-Conveniences/dc-security

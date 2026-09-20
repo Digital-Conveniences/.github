@@ -1,0 +1,17 @@
+# Digital Conveniences Client Delivery CODEOWNERS template
+# Add the assigned client delivery team/reviewers for the engagement.
+
+* @Digital-Conveniences/dc-client-delivery
+
+/.github/ @Digital-Conveniences/dc-maintainers @Digital-Conveniences/dc-platform
+/docs/ @Digital-Conveniences/dc-client-delivery @Digital-Conveniences/dc-maintainers
+/infra/ @Digital-Conveniences/dc-platform
+/infrastructure/ @Digital-Conveniences/dc-platform
+/.github/workflows/ @Digital-Conveniences/dc-platform
+
+**/Security/ @Digital-Conveniences/dc-security
+**/Identity/ @Digital-Conveniences/dc-security
+**/Auth/ @Digital-Conveniences/dc-security
+
+# Add engagement-specific ownership below, for example:
+# /src/ClientSpecificModule/ @Digital-Conveniences/<client-project-team>

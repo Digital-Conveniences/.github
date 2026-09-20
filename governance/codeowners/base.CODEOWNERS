@@ -1,0 +1,22 @@
+# Base Digital Conveniences CODEOWNERS template
+# Copy to .github/CODEOWNERS in the target repository and adapt.
+# Confirm team slugs exist before enabling required CODEOWNERS review.
+
+* @Digital-Conveniences/dc-maintainers
+
+# Governance and GitHub configuration
+/.github/ @Digital-Conveniences/dc-maintainers @Digital-Conveniences/dc-platform
+/docs/ @Digital-Conveniences/dc-maintainers
+
+# Infrastructure / deployment / security-sensitive assets
+**/Dockerfile @Digital-Conveniences/dc-platform
+**/Dockerfile.* @Digital-Conveniences/dc-platform
+/.github/workflows/ @Digital-Conveniences/dc-platform
+/infra/ @Digital-Conveniences/dc-platform
+/infrastructure/ @Digital-Conveniences/dc-platform
+/deploy/ @Digital-Conveniences/dc-platform
+
+# Common security-sensitive areas
+**/Security/ @Digital-Conveniences/dc-security
+**/Identity/ @Digital-Conveniences/dc-security
+**/Auth/ @Digital-Conveniences/dc-security
