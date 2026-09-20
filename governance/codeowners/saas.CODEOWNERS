@@ -1,0 +1,20 @@
+# Digital Conveniences Product / SaaS CODEOWNERS template
+
+* @Digital-Conveniences/dc-saas
+
+/.github/ @Digital-Conveniences/dc-maintainers @Digital-Conveniences/dc-platform
+/docs/ @Digital-Conveniences/dc-saas @Digital-Conveniences/dc-maintainers
+
+# Architecture and shared platform
+/src/Framework/ @Digital-Conveniences/dc-platform
+/src/BuildingBlocks/ @Digital-Conveniences/dc-platform
+/infra/ @Digital-Conveniences/dc-platform
+/infrastructure/ @Digital-Conveniences/dc-platform
+/.github/workflows/ @Digital-Conveniences/dc-platform
+
+# Security-sensitive code
+**/Security/ @Digital-Conveniences/dc-security
+**/Identity/ @Digital-Conveniences/dc-security
+**/Auth/ @Digital-Conveniences/dc-security
+**/*Authentication* @Digital-Conveniences/dc-security
+**/*Authorization* @Digital-Conveniences/dc-security
