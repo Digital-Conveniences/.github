@@ -1,0 +1,6 @@
+# Digital Conveniences organization governance repository
+# This CODEOWNERS file protects this .github repository itself.
+# Repository-wide CODEOWNERS are NOT inherited by other repositories;
+# use the templates under governance/codeowners/ when bootstrapping a repo.
+
+* @Digital-Conveniences/dc-maintainers
