@@ -1,0 +1,28 @@
+# Game repositories often use dependency systems that Dependabot does not fully manage.
+# This template covers GitHub Actions and npm-based tooling where present.
+# Unity/package-manager dependencies should be handled by repository-specific tooling
+# or Renovate/custom managers when appropriate.
+
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "05:00"
+      timezone: "America/Port_of_Spain"
+    open-pull-requests-limit: 3
+    labels:
+      - "dependencies"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "05:15"
+      timezone: "America/Port_of_Spain"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
